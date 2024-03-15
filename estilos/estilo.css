@@ -1,0 +1,64 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #673ab7;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+#logo-liga {
+    position: relative;
+    left: 20px;
+}
+
+#nombre-liga,
+#jornada-actual {
+    margin: 0;
+    color: white;
+}
+
+#equipos {
+    white-space: nowrap; 
+    overflow-x: auto;
+    font-size: 24px; /* Ajusta el tamaño del texto según sea necesario */
+
+}
+
+.equipo {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+
+#equipo-imagen {
+    height: 120px;
+}
+
+
+#boton-equipo {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    color: white;
+    background-color: #673ab7; /* Cambia el color de fondo a morado */
+    font-weight: bold;
+    padding: 15px 20px; /* Aumenta el padding para hacer el botón más grande */
+    border-radius: 10px;
+    top: 15px;
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+
+
+#estadio {
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black; 
+}
